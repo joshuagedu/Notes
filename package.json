@@ -1,0 +1,54 @@
+{
+  "name": "NOTES",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "ios:ip8": "react-native run-ios --simulator='iPhone 8'",
+    "start": "react-native start",
+    "start:rc": "react-native start --reset-cache",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.ts,.tsx"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.9.17",
+    "@types/react-native": "^0.60.27",
+    "@types/react-test-renderer": "^16.9.1",
+    "lodash": "^4.17.15",
+    "react": "16.9.0",
+    "react-localize-redux": "^3.5.3",
+    "react-native": "0.61.5",
+    "react-navigation-redux-helpers": "^4.0.1",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@types/jest": "24.0.18",
+    "@types/react": "16.9.2",
+    "@types/react-native": "0.60.11",
+    "@types/react-test-renderer": "16.9.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-import-resolver-babel-module": "5.1.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.3",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
